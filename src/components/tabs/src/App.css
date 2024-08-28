@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.tab-content {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  white-space: pre;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+.pt-4{
+  padding: 30px;
+}
+.image{
+  width:300px;
+  height: 200px;
+  object-fit: contain;
+  border-right: 1px solid green;
+  padding: 20px;
+}
+.tabs {
+  cursor: pointer;
+  background-color: rgb(157, 229, 165);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  border-top-right-radius: 0px;
+}
+.active {
+  background-color: green;
+  color: white;
+}
+.tabs-container {
+  border: 1px solid green;
+  padding: 20px;
+}

@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.btn-first {
+  background-color: rgb(186, 60, 21);
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0.5px solid rgb(188, 15, 15);
+}
+.btn-last {
+  background-color: rgb(122, 1, 37);
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0.5px solid rgb(188, 15, 15);
+}
+.btn-change {
+  background-color: antiquewhite;
+  padding: 10px;
+  border: 0.2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.page-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  gap: 2px;
+}
+.page-list li {
+  background-color: rgb(101, 184, 28);
+  color: #ffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(80, 16, 16);
+  color: white;
+  border: 1px solid white;
+}
+table tr td {
+  border-bottom: 1px solid green;
+  padding: 10px;
+}
+
+table tr th {
+  border-bottom: 1px solid green;
+  padding: 10px;
+}

@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.name-input {
+  padding: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.name-input:focus {
+  border: 1px solid green;
+}
+.head {
+  color: rgb(10, 33, 201);
+  text-decoration: underline;
+}
+.suggestion-list {
+  background-color: #ffff;
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+  width: inherit;
+  height: 300px;
+  overflow-y: scroll;
+}
+.list-item {
+  border-bottom: 0.4px solid grey;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+.img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.search-result {
+  flex-wrap: wrap;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.search-item {
+}
+.selected-item {
+  gap: 5px;
+  border-radius: 30px;
+  width: auto;
+  border: 1px solid;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.selected-container {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding-left: 10px;
+}
+.cross {
+  cursor: pointer;
+  font-size: 10px;
+  color: gray;
+}
+.cross:hover {
+  color: red;
+}
+.list-item.highlighted {
+  background-color: #d3d3d3;
+}
+
+.list-item:hover {
+  background-color: #d3d3d3;
+}

@@ -1,0 +1,27 @@
+.App {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 300px;
+  gap: 20px;
+}
+.box{
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.box.empty {
+  background: none;
+  border: none;
+  padding: 0;
+  pointer-events: none; /* Makes the empty box unclickable */
+}

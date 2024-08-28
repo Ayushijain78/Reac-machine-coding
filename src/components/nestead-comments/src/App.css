@@ -1,0 +1,95 @@
+.App {
+  text-align: left;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  flex-direction: column;
+}
+.left {
+  padding-left: 40px;
+}
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: 2px;
+}
+.nestead-comment {
+  width: 200px;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(0, 0, 0);
+}
+.mt-10 {
+  margin: 10px 0;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.input {
+  padding: 5px 20px;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(38, 194, 160);
+}
+.button {
+  width: 100px;
+  background-color: rgb(2, 4, 46);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.button:hover {
+  background-color: rgb(22, 17, 164);
+}
+
+.editInputClass {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid rgb(230, 167, 167);
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.input-edit-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  cursor: pointer;
+  color: white;
+}
+.reply-btn {
+  background-color: rgb(42, 161, 42);
+}
+.edit-btn {
+  background-color: rgb(193, 106, 69);
+}
+.delete-btn {
+  background-color: rgb(210, 14, 14);
+}
+.cancel-btn{
+  background-color: rgb(249, 108, 0);
+}

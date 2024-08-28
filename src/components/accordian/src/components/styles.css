@@ -1,0 +1,26 @@
+.box {
+  border: 1px solid grey;
+  width: 100%;
+}
+.header {
+  background-color: teal;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+}
+.description {
+  padding: 20px;
+  background-color: aliceblue;
+  transition: all .5s ease-in-out;
+
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}

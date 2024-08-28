@@ -1,0 +1,23 @@
+.App {
+  margin: 200px auto;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.02px solid green;
+}
+.right {
+  padding-left: 25px;
+  margin-top: 5px;
+}
+.file {
+  color: brown;
+}
+.folder {
+  color: green;
+}
+
+.arrow{
+  cursor: pointer;
+}
