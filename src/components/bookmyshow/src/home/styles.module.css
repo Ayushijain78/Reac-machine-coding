@@ -1,0 +1,103 @@
+.page {
+    width: 1124px;
+    height: 100vh;
+    margin: auto;
+    padding: 60px
+}
+.numSelector span, .timeSlot span, .area {
+    font-size: 16px;
+    color: grey;
+    margin: 10px 0;
+    display: block;
+}
+
+.area {
+    border-bottom: 1px solid grey;
+    margin: 25px 0;
+}
+.timeSlot {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    border: 1px solid darkgreen;
+    text-align: center;
+    color: darkgreen;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.seat {
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    margin: 2px;
+    cursor: pointer;
+    line-height: 20px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.booked {
+    color: white;
+    background: lightgray;
+    border-color: lightgray;
+    cursor: not-allowed;
+}
+
+.preferred {
+    border-color: yellow;
+    background: lightyellow;
+    color: #c8c885;
+}
+
+.walkway {
+    border-color: transparent;
+    color: transparent;
+    background: transparent;
+    cursor: default;
+}
+
+.selected {
+    color: white;
+    background: darkgreen;
+}
+
+.map {
+    margin: 40px auto;
+}
+
+.rowName, .seats {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rowName {
+    color: lightgray;
+    font-size: 16px;
+    text-align: center;
+    border-color: transparent;
+}
+
+.legendContainer {
+    margin: 10px auto;
+    text-align: center;
+    width: 400px;
+}
+
+.legend {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.legend + .legend {
+    margin-left: 10px;
+}

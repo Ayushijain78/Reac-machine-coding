@@ -12,15 +12,25 @@
   gap: 20px;
 }
 .tab-content {
-  margin-top: 20px;
+  margin-top: 0;
   padding: 10px;
   font-size: 16px;
-  white-space: pre;
   text-align: left;
   display: flex;
   flex-direction: row;
+  width: 500px;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: wrap;
+  height: 500px;
   padding-left: 10px;
+  background-color: antiquewhite;
 }
+.tab-header{
+  display: flex;
+  justify-content: space-around;
+}
+
 .pt-4{
   padding: 30px;
 }
@@ -33,16 +43,23 @@
 }
 .tabs {
   cursor: pointer;
-  background-color: rgb(157, 229, 165);
   padding: 10px;
   font-size: 16px;
-  font-weight: 600;
-  border-radius: 30px;
-  border-top-right-radius: 0px;
+  height: 100%;
+  width: 100%;
+  border-right: none;
+  border-top-right-radius: none;
+  border-top: none;
+  border-top-left-radius: 2px;
+  font-size: 12px;
+
 }
 .active {
-  background-color: green;
-  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: rgb(31, 201, 94);
+  border-top: 1px solid black;
+  border-bottom: none;
 }
 .tabs-container {
   border: 1px solid green;
